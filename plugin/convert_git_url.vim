@@ -3,4 +3,4 @@ if exists('g:loaded_convert_git_url')
 endif
 let g:loaded_convert_git_url = 1
 
-command! ConvertGitUrl call convert_git_url#convert()<CR>
+command! ConvertGitUrl call convert_git_url#convert()
